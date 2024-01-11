@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Adjust the styling for the input containers */
+.input-container {
+    display: flex;
+    align-items: center;
+    position: relative; /* Add relative positioning to the container */
+}
+
+/* Style the icon within the input container */
+.input-container i {
+    position: absolute;
+    right: 0; /* Align the icon to the right within the container */
+    transform: translate(-50%); /* Center the icon vertically */
+    margin: 5px 0;
+    display: none;
+}
+
+/* Style the error message */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin: 10px 0;
+    display: none;
+}
+
+
+
+input,
+textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    resize: none;
+}
+.textarea-icon{
+    margin-right: 5px;
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    right: 5px;
+}
+.send-btn:disabled{
+    cursor: not-allowed;
+}
