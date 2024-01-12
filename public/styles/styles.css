@@ -59,6 +59,22 @@ textarea {
     transform: translateY(-50%);
     right: 5px;
 }
-.send-btn:disabled{
+.send-btn{
     cursor: not-allowed;
 }
+
+.input-container .text-icon {
+    position: absolute;
+    right: 0; /* Align the icon to the right within the container */
+    transform: translate(-50%, 400%); /* Center the icon vertically */
+    margin: 5px 0;
+    display: none;
+}
+
+
+@media screen and (max-width: 450px) {
+    .contact-form{
+        width: 85%;
+    }
+}
+
