@@ -61,6 +61,10 @@ textarea {
 }
 .send-btn{
     cursor: not-allowed;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px 0;
 }
 
 .input-container .text-icon {
@@ -77,4 +81,3 @@ textarea {
         width: 85%;
     }
 }
-
