@@ -16,7 +16,7 @@ const emailError = document.querySelector('.email-error');
 const numError = document.querySelector('.num-error');
 const subjectError = document.querySelector('.subject-error');
 const textError = document.querySelector(".text-error");
-
+ 
 let includesEmailTemplate, includesNameTemplate, includesPhoneTemplate, includesTextTemplate, includesSubjectTemplate;
 
 function checkValidatedFields() {
