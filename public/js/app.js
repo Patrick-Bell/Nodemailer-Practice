@@ -4,7 +4,7 @@ const emailInput = document.getElementById('email');
 const numInput = document.getElementById('phone');
 const subjectInput = document.getElementById('subject');
 const textInput = document.getElementById('message');
- 
+  
 const nameIcon = document.querySelector('.name-icon');
 const numIcon = document.querySelector("#num-icon");
 const emailIcon = document.querySelector(".email-icon");
