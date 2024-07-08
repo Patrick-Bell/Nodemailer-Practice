@@ -1,4 +1,4 @@
-const sendBtn = document.querySelector('.send-btn');     
+const sendBtn = document.querySelector('.send-btn');      
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const numInput = document.getElementById('phone');
